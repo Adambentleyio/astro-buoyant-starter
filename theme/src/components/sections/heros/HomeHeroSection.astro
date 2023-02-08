@@ -8,23 +8,23 @@ import {ThemeSwitcher} from '../../theme-switcher/theme-switcher';
 <Container>
 	<section class="hero-section__section">
 		<div class="hero-section__text">
-				<h1>Welcome to Odyssey</h1>
+				<h1>Welcome to Buoyant</h1>
 				<p>
 					A marketing website theme built with <a
 						href="https://astro.build"
 						target="_blank"
 						rel="noreferrer">Astro</a
-					> and carefully crafted for startups and businesses.
+					> and carefully crafted for therapists, coaches and creators.
 				</p>
 				<div class="hero-btns__container">
-					<Button href="/theme/get-started" customIcon
+					<Button href="/company/contact" customIcon
 						>Get Started
             <Fragment slot="icon">
               <Icon name="ic:baseline-chevron-right"/>
             </Fragment>
             </Button
 					>
-					<Button href="/theme/style-guide" unelevated>Style Guide</Button>
+					<Button href="/company/about" unelevated>Read more</Button>
 				</div>
         {settings.enableThemeSwitcher && <ThemeSwitcher client:load/>}
 		</div>
@@ -32,7 +32,7 @@ import {ThemeSwitcher} from '../../theme-switcher/theme-switcher';
 				<picture>
 					<img
 						src="/assets/images/home/classic-hero.jpg"
-						alt="Astro Odyssey"
+						alt="Buoyant by greyscale"
 						id="home-hero-image"
 					/>
 				</picture>
